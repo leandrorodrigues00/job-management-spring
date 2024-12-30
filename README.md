@@ -1,6 +1,4 @@
-# Job Management - a job posting and application management system 💼
-
-
+# Job Management - manage job postings and applications 💼
  
 <br> 
 <p align="center">
