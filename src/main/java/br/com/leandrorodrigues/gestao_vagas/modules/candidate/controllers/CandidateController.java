@@ -11,6 +11,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
@@ -63,6 +64,7 @@ public class CandidateController {
     @PreAuthorize("hasRole('CANDIDATE')")
     @Tag(name = "Candidate", description = "Candidate information")
     @Operation(summary = "Listing of available jobs for the candidate", description = "This function is responsible for listing all available jobs based on the filter.")
+    @SecurityRequirement(name = "jwt_auth")
     @ApiResponses({
             @ApiResponse(responseCode = "200", content = {
                     @Content(
