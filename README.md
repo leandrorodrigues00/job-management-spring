@@ -1,4 +1,4 @@
-# Job Management - manage job postings and applications 💼
+# Job Management 💼
  
 <br> 
 <p align="center">
