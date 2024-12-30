@@ -19,7 +19,6 @@ The complete documentation of the endpoints was created using Swagger, and secur
 ## 🚀 Technologies 
 
 - [Java](https://jdk.java.net/17/)
-- [Spring Validation](https://spring.io/guides/gs/validating-form-input)
 - [Spring Security](https://spring.io/projects/spring-security)
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/download/)
